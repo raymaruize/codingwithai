@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruize (Ray) Ma - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar (Sticky) -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="#home">Ruize Ma</a>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#photography">Photography</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Dark Mode Toggle Button -->
+                <li>
+                    <button class="dark-mode-toggle" aria-label="Toggle dark mode">
+                        <span class="toggle-icon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Ruize (Ray) Ma</h1>
+                <p class="tagline">MBA Candidate at CMU Tepper | Product Manager | ECE Background</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-placeholder" alt="Profile photo placeholder">
+                    <p>Profile Photo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            
+            <div class="about-content">
+                <div class="bio">
+                    <p>
+                        I'm an MBA Candidate at Carnegie Mellon University's Tepper School of Business 
+                        with a background in Electrical & Computer Engineering. I bring a unique blend of 
+                        technical expertise and product management acumen to drive innovation in healthcare technology.
+                    </p>
+                    <p>
+                        At uLab Systems, I've led transformative projects including migrating legacy applications 
+                        to cloud-based platforms and integrating cutting-edge 3D scanning technology into clinical workflows. 
+                        I'm passionate about leveraging modern tools—including AI—to solve real problems and improve 
+                        operational efficiency.
+                    </p>
+                    <p>
+                        Outside of work, I'm an avid soccer player, surfer, and photographer who loves capturing 
+                        moments of adventure and daily life.
+                    </p>
+                </div>
+
+                <div class="skills-section">
+                    <h3>Skills</h3>
+                    <div class="skills-grid">
+                        <span class="skill-pill">Product Management</span>
+                        <span class="skill-pill">Cloud Architecture</span>
+                        <span class="skill-pill">Healthcare Tech</span>
+                        <span class="skill-pill">Project Leadership</span>
+                        <span class="skill-pill">HTML/CSS/JavaScript</span>
+                        <span class="skill-pill">Agile Methodology</span>
+                        <span class="skill-pill">Data Analysis</span>
+                        <span class="skill-pill">Workflow Optimization</span>
+                    </div>
+                </div>
+
+                <div class="interests-section">
+                    <h3>Interests</h3>
+                    <div class="interests-grid">
+                        <!-- AI Note: Using data attributes for interaction tracking -->
+                        <button class="interest-pill" data-interest="soccer">⚽ Soccer</button>
+                        <button class="interest-pill" data-interest="surfing">🏄 Surfing</button>
+                        <button class="interest-pill" data-interest="photography">📷 Photography</button>
+                    </div>
+                    <!-- Placeholder for JS interaction message -->
+                    <div id="interest-message" class="interest-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 0: Portfolio Website -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <p>Screenshot Placeholder</p>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p class="project-meta">CMU 15-113 Project 1 | HTML • CSS • JavaScript</p>
+                        <p>
+                            A responsive, single-page portfolio website built with semantic HTML, 
+                            CSS Grid/Flexbox, and vanilla JavaScript. Features dark mode toggle, 
+                            smooth scrolling, and IntersectionObserver for dynamic navigation. 
+                            Deployable to GitHub Pages.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="link">View Repo</a>
+                            <a href="#" class="link">Live Site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 1: Cloud Platform Migration -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <p>No public screenshot available</p>
+                    </div>
+                    <div class="project-content">
+                        <h3>Legacy Desktop App → Cloud Platform Migration</h3>
+                        <p class="project-meta">uLab Systems | Product Management • Cloud Architecture</p>
+                        <p>
+                            Led the strategic conversion of a legacy desktop application into a 
+                            scalable, cloud-based platform. Improved system scalability by 10x, 
+                            reduced deployment time, and enhanced user accessibility across multiple 
+                            clinical sites.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://www.ulabsystems.com/" class="link" target="_blank">Company Site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: 3D Scanner Integration -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <p>No public screenshot available</p>
+                    </div>
+                    <div class="project-content">
+                        <h3>External 3D Scanner Integration</h3>
+                        <p class="project-meta">uLab Systems | Hardware Integration • Clinical Workflow</p>
+                        <p>
+                            Delivered seamless integration of external 3D scanning hardware into 
+                            the platform, reducing manual data entry steps by 40% and improving 
+                            clinical data ingestion workflows. Enhanced accuracy and reduced 
+                            turnaround time for patient diagnostics.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://www.ulabsystems.com/" class="link" target="_blank">Company Site</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: AI Sales Enablement Tool -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <p>No public screenshot available</p>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Sales Enablement Tool</h3>
+                        <p class="project-meta">Internal Tool | AI • Efficiency • Information Retrieval</p>
+                        <p>
+                            Collaborated with AI tools to build an internal sales enablement platform 
+                            that streamlined information retrieval and improved team efficiency. 
+                            The tool enables sales representatives to quickly access product 
+                            specifications and competitive insights.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="link">Case Study</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Photography Section -->
+    <section id="photography" class="photography">
+        <div class="container">
+            <h2>Photography</h2>
+            <p class="section-intro">
+                I love capturing moments through my lens—whether it's the action on the soccer field, 
+                the thrill of the waves, or the quiet beauty of everyday travel moments. Photography 
+                is my creative outlet and a way to share the world as I see it.
+            </p>
+            
+            <div class="photography-content">
+                <div class="instagram-placeholder">
+                    <p>Instagram Screenshot Placeholder</p>
+                </div>
+                <div class="photo-gallery">
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <p>Photo 1</p>
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <p>Photo 2</p>
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <p>Photo 3</p>
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <p>Photo 4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="photo-credit">All photos are by me unless otherwise stated.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-intro">
+                I'm always interested in connecting with like-minded professionals. 
+                Feel free to reach out!
+            </p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <a href="mailto:your.email@example.com">your.email@example.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/ruize-ma/" target="_blank">linkedin.com/in/ruize-ma</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/raymaruize" target="_blank">github.com/raymaruize</a>
+                    </div>
+                </div>
+
+                <!-- Optional Contact Form with Client-Side Validation -->
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p id="form-status" class="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year">2026</span> Ruize (Ray) Ma. All rights reserved.</p>
+            <p class="footer-note">
+                Website built with HTML, CSS, and JavaScript. 
+                <!-- AI Usage Disclosure -->
+                AI tools (including GitHub Copilot) were used to assist with code development.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
