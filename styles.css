@@ -183,8 +183,8 @@ body {
 }
 
 .hero-text .tagline-sub {
-    font-size: 1rem;
-    color: var(--accent-color);
+    font-size: 1.15rem;
+    color: var(--text-light);
     margin-bottom: 2rem;
     line-height: 1.5;
     font-weight: 500;
