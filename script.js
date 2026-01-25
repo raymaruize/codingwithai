@@ -91,16 +91,22 @@ sections.forEach(section => observer.observe(section));
 
 const carouselData = {
     cooking: {
-        images: Array.from({ length: 5 }, (_, i) => `assets/explorations/cooking/${String(i + 1).padStart(2, '0')}.jpg`)
+        images: [
+            'assets/explorations/cooking/01.jpeg',
+            'assets/explorations/cooking/02.jpeg',
+            'assets/explorations/cooking/03.jpeg',
+            'assets/explorations/cooking/04.jpeg',
+            'assets/explorations/cooking/05.jpeg'
+        ]
     },
     soccer: {
-        images: Array.from({ length: 5 }, (_, i) => `assets/explorations/soccer/${String(i + 1).padStart(2, '0')}.jpg`)
+        images: []
     },
     surfing: {
-        images: Array.from({ length: 5 }, (_, i) => `assets/explorations/surfing/${String(i + 1).padStart(2, '0')}.jpg`)
+        images: []
     },
     photography: {
-        images: Array.from({ length: 5 }, (_, i) => `assets/explorations/photography/${String(i + 1).padStart(2, '0')}.jpg`)
+        images: []
     }
 };
 
