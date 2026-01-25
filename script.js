@@ -100,13 +100,31 @@ const carouselData = {
         ]
     },
     soccer: {
-        images: []
+        images: [
+            'assets/explorations/soccer/01.jpeg',
+            'assets/explorations/soccer/02.jpeg',
+            'assets/explorations/soccer/03.jpeg',
+            'assets/explorations/soccer/04.jpeg',
+            'assets/explorations/soccer/05.jpeg'
+        ]
     },
     surfing: {
-        images: []
+        images: [
+            'assets/explorations/surfing/01.jpeg',
+            'assets/explorations/surfing/02.jpeg',
+            'assets/explorations/surfing/03.jpeg',
+            'assets/explorations/surfing/04.jpg',
+            'assets/explorations/surfing/05.jpeg'
+        ]
     },
     photography: {
-        images: []
+        images: [
+            'assets/explorations/photography/01.jpeg',
+            'assets/explorations/photography/02.jpeg',
+            'assets/explorations/photography/03.jpeg',
+            'assets/explorations/photography/04.jpeg',
+            'assets/explorations/photography/05.jpg'
+        ]
     }
 };
 
