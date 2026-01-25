@@ -519,7 +519,7 @@ body.dark-mode .btn-secondary {
 }
 
 #explorations .carousel-viewport {
-    width: 100%;
+    width: min(100%, 360px);
     aspect-ratio: 3 / 4;
     height: auto;
     overflow: hidden;
@@ -528,6 +528,7 @@ body.dark-mode .btn-secondary {
     align-items: center;
     justify-content: center;
     background-color: var(--bg-secondary);
+    margin: 0 auto;
 }
 
 #explorations .carousel-image {
@@ -572,6 +573,7 @@ body.dark-mode .btn-secondary {
     }
     
     #explorations .carousel-viewport {
+        width: min(100%, 300px);
         aspect-ratio: 3 / 4;
         height: auto;
     }
