@@ -417,11 +417,6 @@ body.dark-mode .btn-secondary {
     transition: var(--transition);
 }
 
-.skill-tag:hover {
-    border-color: var(--accent-color);
-    background-color: var(--bg-secondary);
-}
-
 .project-link {
     color: var(--accent-color);
     text-decoration: none;
